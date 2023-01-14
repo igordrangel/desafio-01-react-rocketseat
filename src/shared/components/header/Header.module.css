@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 0;
+  background-color: var(--gray-700);
+}
+.logotype {
+  margin-right: 0.75rem;
+}
+.toColor {
+  color: var(--blue);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.doColor {
+  color: var(--purple-dark);
+  font-size: 2.5rem;
+  font-weight: bold;
+}

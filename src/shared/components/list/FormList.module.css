@@ -1,0 +1,42 @@
+.formList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.formList > input[type=text] {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+}
+.formList > input[type=text]:focus {
+  outline: 1px solid var(--purple-dark);
+}
+
+.formList > button[type=submit] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .1s;
+}
+.formList > button[type=submit]:disabled {
+  opacity: .7;
+  cursor: not-allowed;
+}
+.formList > button[type=submit]:not(:disabled):hover {
+  background-color: var(--blue);
+}
